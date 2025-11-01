@@ -1,0 +1,26 @@
+# Minimal numerical & plotting
+numpy>=1.23
+matplotlib>=3.6
+pandas>=1.5
+
+# NLP core
+nltk>=3.8
+emoji>=2.0
+sacrebleu>=2.0
+sentencepiece>=0.1.97
+termcolor>=2.2
+
+# ML / Embeddings / Models
+scikit-learn>=1.2
+transformers>=4.40
+datasets>=2.16
+tensorflow>=2.11,<2.16
+tensorflow-text>=2.11,<2.16
+
+# Interactive / visualization extras
+ipywidgets>=8.0
+
+# Notes:
+# - tensorflow pin upper bound to avoid breaking API changes.
+# - Adjust versions based on local environment constraints (GPU vs CPU builds).
+# - Some weeks only require numpy + matplotlib + nltk.
